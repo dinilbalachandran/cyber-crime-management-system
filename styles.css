@@ -1,0 +1,400 @@
+/*Index Page*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainindex{
+    width: 100%;
+    background-image: url(img/indeximg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.headercontainer{
+    background: linear-gradient(to left,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)90%);
+    height: 13%;
+    width: 40%;
+    align-content: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-bottom-right-radius: 50px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-top: 05px;
+    margin-left: 19px;
+}
+
+.header{
+    padding-top: 07px;
+    margin-top: auto;
+    margin-left: auto;
+    color: aliceblue;
+}
+
+.header h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 02px;
+    margin-left: 105px;
+}
+
+.header p{
+    margin-left: 108px;
+    letter-spacing: 0.75px;
+}
+
+.indexloginbox{
+    text-align: center;
+    background: linear-gradient(to left,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    float: right;
+    height: 60%;
+    width: 25%;
+    margin-right: 70px;
+    margin-top: -350px;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 16px 2px cyan;
+    align-content: center;
+    align-self: auto;
+}
+
+.indexloginbox h3{
+    color: aliceblue;
+    font-size: 38px;
+    margin-top: 08;
+    margin-bottom: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.indexloginbox p,#a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 25px;
+    transition: all 0.3s ease;
+}
+
+.indexloginbox #a:hover{
+    color: cyan;
+    transform: scale(1.05);
+}
+.indexlogin-buttons a {
+    display: block;
+    width: 150px;
+    padding: 20px 80px;
+    text-align: center;
+    background: #0467df;
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top:  30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexlogin-buttons a:hover {
+    cursor: pointer;
+    background: #01b3ff;
+    transform: scale(1.055);
+}
+
+.content{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.content h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-bottom: -05px;
+}
+
+.content h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content h6{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 06px;
+}
+
+.content p{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer{
+    color: aliceblue;
+    position: bottom;
+    margin-left: 40px;
+    margin-top: 30px;
+    align-self: flex-end;
+}
+
+.footer h2{
+    font-size: 24px;
+    margin-bottom: 09px;
+}
+.footer p{
+    font-size: 17px;
+    letter-spacing: 0.25px;
+}
+
+.footer #copyright{
+    font-size: 21px;
+    margin-top: 07px;
+}
+
+/*Registration Page*/
+
+.mainreg{
+    background-image: url(img/regimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.registrationbox {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 420px;
+    height: 490px;
+    color: white;
+    margin-left: 899px;
+    margin-top: -420px;
+    box-shadow: 0 0 16px 2px cyan;
+}
+.registrationbox h2 {
+    margin-top: 05px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.regformline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 45px;
+}
+.regformline label {
+    width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.regformline input,textarea {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.regformline textarea {
+    height: 36px;
+}
+
+.registrationbox button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 04px;
+    background-color: #0467df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.registrationbox button:hover {
+    background-color: #ff5703;
+    transform: scale(1.03);
+}
+
+.regcontent{
+    color: aliceblue;
+    text-align: left;
+    text-shadow: 0 0 16px 2px black;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.regcontent h1{
+    font-weight: bold;
+    font-size: 110px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.regcontent li{
+    font-size: 28px;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-shadow: black;
+}
+
+.regfooter{
+    color: aliceblue;
+    position: bottom;
+    margin-left: 40px;
+    margin-top: -68.5px;
+    align-self: flex-end;
+}
+
+.regfooter h2{
+    font-size: 24px;
+    margin-bottom: 09.5px;
+}
+.regfooter p{
+    font-size: 17px;
+    letter-spacing: 0.25px;
+}
+
+.regfooter #copyright{
+    font-size: 21px;
+    margin-top: 06.75px;
+}
+
+/*Login Page*/
+
+.mainlogin{
+    background-image: url(img/loginimg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.logincontainer{
+    text-align: center;
+    background: linear-gradient(to left,rgba(0,0,0,0.5)10%,rgba(0,0,0,0.5)10%);
+    float: right;
+    height: 70%;
+    width: 28%;
+    margin-top: -325px;
+    margin-right: 70px;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 16px 2px cyan;
+    align-content: center;
+    align-self: auto;
+}
+
+.logincontainer h3{
+    color: aliceblue;
+    font-size: 38px;
+    margin-bottom: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.loginformline #l{
+    width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    margin-right: 265px;
+}
+
+.loginformline #lu{
+    width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    margin-right: 265px;
+}
+
+.logincontainer input{
+    width: 90%;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.logincontainer button{
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    background-color: #0467df;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.logincontainer button:hover{
+    background-color: cyan;
+    transform: scale(1.03);
+}
+
+.logincontainer p,#a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logincontainer #a:hover{
+    color: cyan;
+    transform: scale(1.05);
+}
+
+.logincontent{
+    position: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-shadow: 16px black;
+}
+
+.logincontent h1{
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.logincontent h2{
+    font-size: 110px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.loginfooter{
+    color: aliceblue;
+    position: bottom;
+    margin-left: 40px;
+    margin-top: 76px;
+    align-self: flex-end;
+}
+
+.loginfooter h2{
+    font-size: 24px;
+    margin-bottom: 09.5px;
+    text-shadow: 16px black;
+}
+.loginfooter p{
+    font-size: 17px;
+    letter-spacing: 0.25px;
+}
+
+.loginfooter #copyright{
+    font-size: 21px;
+    margin-top: 07px;
+}
